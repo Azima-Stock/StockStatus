@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+	<!--
+
+
+	Project V3 Moutain Dew Page
+
+	Author: Josh Jaynes
+	Date:   5/21/19
+
+	Filename: index.html
+
+	Objectives
+
+	- Done
+
+
+-->
+<title>Mountain Dew Flavors</title>
+<link href="styles.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body id="mainpage">
+	<header>
+		<nav id ="desk">
+			<ul>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="about.html">About Page</a></li>
+				<li><a id ="fit" href="#ContentSources">See Content Sources</a></li>
+				<li><a id = "archived" href="#" class="main">▼Archived Projects▼</a>
+					<ol  class="sub">
+						<li><a id= "v1" href="http://cis2.oc.ctc.edu/class/ag155.spring19/joshuajaynes/CIS155/Project/V1/index.html" target="_blank">Project-V1<br>(New Tab)</a></li>
+						<li><a id= "v2" href="http://cis2.oc.ctc.edu/class/ag155.spring19/joshuajaynes/CIS155/Project/V2/index.html" target="_blank">Project-V2<br>(New Tab)</a></li>
+						<!--<li><a id= "v2" href="http://cis2.oc.ctc.edu/class/ag155.spring19/joshuajaynes/CIS155/Project/V3/index.html" target="_blank">Project-V3<br>(New Tab)</a></li>-->
+					</ol>
+				</li>
+			</ul>
+
+		</nav>
+
+		<nav>
+			<ul>
+				<li><a id="mlink1" href="index.html">Home Page</a></li>
+				<li><a id ="mlink2" href="about.html">About Page</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<aside>
+		<p>
+			Explore the Mountain Dew Flavors over the years of production!
+		</p>
+		<figure>
+			<img src="images/Mtn-Dew-Banner.png" alt="Mountain Dew Banner" />
+		</figure>
+	</aside>
+
+	<article>
+		<p id ="mobileview"> You are viewing this webpage on a mobile device less than 480px wide </p>
+		<p id ="tabview"> You are viewing this webpage on a device less than 800px wide</px>
+		<table>
+			<!--M6LO3 Demonstrate how to create a table (HTML, explain table's purpose; it needs to be appropriate data for a table, and have at least 2 columns and 3 rows, appropriate use of thead/tbody/tfooter, and cells using th/td appropriately)-->
+			<!-- I revamp the look of my v3 page by formatting all the content and links into a 3 column table-->
+			<thead>
+				<tr>
+					<th colspan="3" id="flavors" >
+						<!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table (HTML, document where you write HTML that causes a multi-row or multi-column span; say which one it is as well: row or column, or both)-->
+						<!-- My "Flavor" heading is spanning across 3 columns-->
+						<p> Flavors </p>
+						<p id="subTitle">Click on the one of your choice to learn more about it!</p>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="regular" class="flavors">
+						<a href="regular.html">
+							<h2> Regular </h2>
+							<img src="images/mdregular.jpg" alt="MtDewRegLogo" />
+						</a>
+						<p>
+							True to the green brand and what started it all. This product has be in production for over 80 plus years.
+						</p>
+					</td>
+					<td id="voltage" class="flavors">
+						<a href="voltage.html">
+							<h2> Voltage </h2>
+							<img src="images/mdvoltage.jpg" alt="MtDewVoltLogo" />
+						</a>
+						<p>
+							This is a raspberry citurus flavor that is colored dark blue.
+						</p>
+					</td>
+					<td id="pitchBlack" class="flavors">
+						<a href="pitchblack.html">
+							<h2> Pitch Black </h2>
+							<img src="images/mdpitchblack.jpg" alt="MtDewPBLogo" />
+						</a>
+						<p>
+							This flavor has been off and on since 2004 and is a grape-ish flavor delight.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="bahaBlast" class="flavors">
+						<a href="bahablast.html">
+							<h2> Baha Blast </h2>
+							<img src="images/mdbaha.jpg" alt="MtDewBBLogo" />
+						</a>
+						<p>
+							This flavor is a Taco Bell exclusive but over the last couple of years is now available on store shelves althought with the Taco Bell logo. For taste, it can be described as a "tropical lime storm." This is in my opionion the best flavor.
+						</p>
+					</td>
+					<td id="codeRed" class="flavors">
+						<a href="codered.html">
+							<h2> Code Red </h2>
+							<img src="images/mdcodered.jpg" alt="MtDewRedLogo" />
+						</a>
+						<p>
+							The cherry flavor alternative to the green brand.
+						</p>
+					</td>
+					<td id="liveWire" class="flavors">
+						<a href="livewire.html">
+							<h2> Live Wire </h2>
+							<img src="images/mdlivewire.jpg" alt="MtDewLLLogo" />
+						</a>
+						<p>
+							More citrus but in orange. Can't go wrong.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="throwBack" class="flavors">
+						<a href="throwback.html">
+							<h2> Throwback </h2>
+							<img src="images/Mountain_Dew_Throwback_Logo.jpg" alt="MtDewTBLogo" />
+							<h3 style="color: green;">&mdash; Cane Sugar&mdash;</h3>
+						</a>
+						<p>
+							I find this flavor the best of all. No high frutose cornsyrup is added but instead is made with actual cane sugar. The flavor has a more sweeter taste in my opionion. This are found in both plastic and glass bottles.
+						</p>
+					</td>
+					<td id="labelSeries" class="subflavors">
+						<a href="labelseries.html">
+							<h2> Label Series </h2>
+							<img src="images/dew_label_series_logo.jpg" alt="MtDewLabelLogo" />
+						</a>
+						<p>
+							Black, White, and Green - or Dark Berry, Tropical Citrus, and Green Apple Kiwi respectively
+						</p>
+					</td>
+					<td id="spikedSeries" class="subflavors">
+						<a href="spikedseries.html">
+							<h2> Spiked Series </h2>
+							<img src="images/mdspiked.jpg" alt="MtDewSpikedLogo" />
+						</a>
+						<p>
+							The name may suggest it is alcholic but it is not (unfortunately). These are two lemonade flavors - regular and raspberry.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="kickStartSeries" class="subflavors">
+						<a href="kickstartseries.html">
+							<h2>Kickstart Series</h2>
+							<img src="images/Kickstart.jpg" alt="MtDewKickLogo" />
+						</a>
+						<p>
+							Low Carbonated, low sugar (compared to Mt Dew atleast) juice for the most part that can provide the needed jump in the morning.
+						</p>
+					</td>
+					<!-- Added expasions due to warning about last row now filling to 3 and then target the border to remove-->
+					<td id="expansion1" class="subflavors">
+					</td>
+					<td id="expansion2" class="subflavors">
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Enjoy!</td>
+				</tr>
+			</tfoot>
+		</table>
+	</article>
+
+	<footer>
+		<strong><a id="ContentSources"> <br>&nbsp; Content Sources</a></strong>
+		<ol>
+			<li><a href="https://en.wikipedia.org/wiki/Mountain_Dew">https://en.wikipedia.org/wiki/Mountain_Dew</a></li>
+			<li><a href="https://mountaindew.fandom.com/wiki/Category:Flavor">https://mountaindew.fandom.com/wiki/Category:Flavor</a></li>
+			<li><a href="https://www.buzzfeednews.com/article/venessawong/what-is-mountain-dew">https://www.buzzfeednews.com/article/venessawong/what-is-mountain-dew</a></li>
+			<li><a href="https://tenor.com/search/mountain-dew-gifs">https://tenor.com/search/mountain-dew-gifs</a></li>
+			<li><a href="https://www.thesitewizard.com/html-tutorial/open-links-in-new-window-or-tab.shtml"> https://www.thesitewizard.com/html-tutorial/open-links-in-new-window-or-tab.shtml"</a></li>
+			<li><a href="http://hslpicker.com"> http://hslpicker.com </a></li>
+		</ol>
+		&nbsp;All images pulled from Mountaindew Fandom under Fair Use. Background Gif pulled from Tenor under Fair Use. <br>
+
+		<figure>
+			<img src="images/mdhover.png" alt="mdlogohover" usemap="#Last" width="200" height="200">
+
+			<figcaption>Click the logo to go back to the top!</figcaption>
+		</figure>
+
+		<map name="Last">
+			<area shape="circle" coords="50,190,160" href="#top" alt="to top of page">
+		</map>
+
+	</footer>
+</body>
+
+</html>
