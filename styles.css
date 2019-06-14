@@ -269,6 +269,7 @@ aside img
 }
 
 
+
 article
 {
 	clear: both;
@@ -276,6 +277,16 @@ article
 	margin-bottom: 5%;
 	margin-left: 2.25%;
 	margin-right: 2.25%;
+
+
+}
+
+#video
+{
+	float: right;
+  display: block;
+  width: 80%;
+
 
 }
 
