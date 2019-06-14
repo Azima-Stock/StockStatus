@@ -489,12 +489,33 @@ tfoot
 
 section
 {
-		background-color: black;
-		width: 100%;
+	border-style: dashed;
+	border-color: black;
+	background-image: url(images/md.gif);
+	background-position: center;
+	background-repeat: round;
+	font-size: 20px;
+	text-shadow: 2px 5px 5px black;
+	font-weight: bold;
+	color: yellow;
+		margin: auto;
+		width: 80%;
 		text-align: center;
 		font-size: 1.5em;
 		padding: 5px 5px 5px 5px;
-		color: yellow;
+
+}
+
+h4,
+{
+	background-color: black;
+}
+
+#rField, #sField
+{
+	font-weight: normal;
+	font-size: 0.5em;
+	font-style: italic;
 }
 
 /*M7LO11 Demonstrate how to format a form with CSS (group your form styles together in your CSS file, and document their overall impact on the form)*/
@@ -519,10 +540,24 @@ input[type='text']:focus:valid,  input#firstName:focus:valid, input#lastName:foc
       background-position: right top;
       background-repeat: no-repeat;
   }
-label
-{
-text-align: left;
-}
+
+	label {
+
+	   margin: 20px;
+		 clear: left;
+	}
+
+	input {
+	   clear: left;
+	   text-align: center;
+		 margin-left: 10px;
+	}
+
+	#mailBox
+	{
+		margin-left: 6%;
+	}
+
 footer
 {
 	margin-top: 10%;
