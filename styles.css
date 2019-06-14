@@ -163,13 +163,29 @@ header
 	background-image: url(images/background2.png);
 	background-position: center;
 	background-repeat: round;
-	font-size: 20px;
 	color: white;
+	padding-left: 5px;
 }
 
 #Objectives2
 {
 	background-color: hsla(0, 0%, 0%, 0.85);
+}
+
+#Objectives h1
+{
+	padding-top: 50px;
+	text-align: center;
+	color: #1CB914;
+
+}
+
+#Objectives h2
+{
+	padding-top: 10px;
+	text-align: center;
+	color: #1CB914;
+
 }
 
 h1
@@ -516,6 +532,7 @@ h4,
 	font-weight: normal;
 	font-size: 0.5em;
 	font-style: italic;
+	text-align: center;
 }
 
 /*M7LO11 Demonstrate how to format a form with CSS (group your form styles together in your CSS file, and document their overall impact on the form)*/
@@ -695,13 +712,26 @@ footer img
 
 	td
 	{
-		font-size: .5em;
+		font-size: .75em;
 	}
 
 	td h2
 	{
 		font-size: 1em;
 	}
+
+	section
+	{
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+
+	background-repeat: no-repeat;
+	background-image: url("images/background.jpg");
+	}
+
+
 
 	footer
 	{
@@ -721,6 +751,12 @@ footer img
 	footer figure
 	{
 		display: none;
+	}
+
+	#Objectives h1
+	{
+		display: none;
+
 	}
 
 }
