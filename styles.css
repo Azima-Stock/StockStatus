@@ -726,11 +726,22 @@ footer img
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2%;
-
+	font-size: 1.5em;
 	background-repeat: no-repeat;
 	background-image: url("images/background.jpg");
 	}
 
+	#promo
+	{
+
+		font-size: .75em;
+	}
+
+	textarea
+	{
+	width: 60%;
+
+	}
 
 
 	footer
