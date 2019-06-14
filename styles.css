@@ -487,8 +487,42 @@ tfoot
 	font-size: 2em;
 }
 
+section
+{
+		background-color: black;
+		width: 100%;
+		text-align: center;
+		font-size: 1.5em;
+		padding: 5px 5px 5px 5px;
+		color: yellow;
+}
 
+/*M7LO11 Demonstrate how to format a form with CSS (group your form styles together in your CSS file, and document their overall impact on the form)*/
+/*form validation*/
+input:focus, promotions:focus, textarea:focus
+{
+  background-color: #1CB914;
+}
 
+input[type='text']:focus:valid,  input#firstName:focus:valid, input#lastName:focus:valid, input#mailBox:focus:valid
+ {
+    background-color: rgb(220,255,220);
+    background-image: url(images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+	input[type='text']:focus:invalid, input#firstName:focus:invalid, input#lastName:focus:invalid, input#mailBox:focus:invalid
+  {
+      background-color: rgba(171, 33, 18, .95);
+      background-image: url(images/invalid.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+  }
+label
+{
+text-align: left;
+}
 footer
 {
 	margin-top: 10%;

@@ -9,10 +9,10 @@
 	<!--
 
 
-	Project V3 Moutain Dew Page
+	Project V4 Moutain Dew Page
 
 	Author: Josh Jaynes
-	Date:   5/21/19
+	Date:   6/13/19
 
 	Filename: index.html
 
@@ -66,13 +66,10 @@
 	<article>
 
 		<table>
-			<!--M6LO3 Demonstrate how to create a table (HTML, explain table's purpose; it needs to be appropriate data for a table, and have at least 2 columns and 3 rows, appropriate use of thead/tbody/tfooter, and cells using th/td appropriately)-->
-			<!-- I revamp the look of my v3 page by formatting all the content and links into a 3 column table-->
+
 			<thead>
 				<tr>
 					<th colspan="3" id="flavors" >
-						<!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table (HTML, document where you write HTML that causes a multi-row or multi-column span; say which one it is as well: row or column, or both)-->
-						<!-- My "Flavor" heading is spanning across 3 columns-->
 						<p> Flavors </p>
 						<p id="subTitle">Click on the one of your choice to learn more about it!</p>
 						<p>
@@ -195,6 +192,45 @@
 			</tfoot>
 		</table>
 	</article>
+
+		<section>
+
+
+				<h4>
+				Enjoy Mountain Dew? Become a register fan of this page!
+			</h4>
+		<form action="http://www.example.com/cg/mtdewfan-registration" method="post">
+			Enter Your Info <br>
+
+			<p id="rField"> (* Indicates Required Field)</p>
+			<!--M7LO5 Demonstrate the use of a text box in a form-->
+			<!--Using a text box for both first and last name, allows free type into field-->
+			<label for="firstName">First Name*</label>
+			<!-- The required pattern is a-zA-z + which means the name has to be A-Z with no number and as long as desired-->
+			<input type="text" id="firstName" required pattern="[a-zA-Z]+" />
+			<br>
+			<label for="lastName">Last Name*</label>
+			<input type="text" id="lastName" required pattern="[a-zA-Z]+" />
+			<br>
+			<label for="mailBox">Email*</label>
+			<input type="email" id="mailBox" required pattern="*+@+*.com"/>
+			<br>
+			<!-- M7LO6 Demonstrate the use of check boxes in a form-->
+			<!-- Added a checkbox as an optional step if user want to have promotions -->
+			<label id="checkPromo" for="checkbox">Receive Monthly Promotions? </label>
+			<input type="checkbox" id="checkbox" checked/>
+			<br>
+			<!-- M7LO9 Demonstrate the use of a text area in a form -->
+			<!-- Added a comment area for users to give feedback -->
+			<label for="comments">Comments or Suggestions ? </label>
+			<br>
+			<textarea id="comments" rows="5" cols ="40">Write your feedback here... </textarea>
+			<br>
+			<!-- M7LO10 Demonstrate the use of a submit button in a form -->
+			<!-- I customize a submit button for data entry -->
+			<input type="submit" value="DoTheDew" />
+		</form>
+		</section>
 
 	<footer>
 		<strong><a id="ContentSources"> <br>&nbsp; Content Sources</a></strong>
