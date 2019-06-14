@@ -108,7 +108,7 @@ header nav ul li a:hover#fit
 	padding: 5px 80px 5px 80px;
 }
 
-header nav ul li a:hover#archived,#v1:hover,#v2:hover{
+header nav ul li a:hover#archived,#v1:hover,#v2:hover, #v3:hover{
 	color: black;
 	background-color:#42f4a4;
 	padding: 2px 5px 2px 5px;
