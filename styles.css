@@ -749,6 +749,8 @@ footer img
 	margin-bottom: 2%;
 	font-size: 1.5em;
 	background-repeat: no-repeat;
+	/*M8LO10 Demonstrate a CSS animation or transition (CSS, identify which is being done and its impact on the rendered HTML; note it has to include a time aspect, not be immediate)*/
+	/* my background has the affect of moving closer to the screen*/
 	background-image: url("images/background.jpg");
 	transition: background-image 10s ease-in;
 	transform: perspective(200px);
