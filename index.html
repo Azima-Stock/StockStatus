@@ -64,13 +64,17 @@
 	</aside>
 
 	<div id="video">
-		<video controls poster="collage3.jpg">
 
-			<source src="TestVid-MTNDEW.mp4" type="video/mp4">
-				<source src="TestVid-MTNDEW.webm" type="video/webm">
-					<track label="Speech Captions" kind="subtitles" srclang="en" src="ws_captions.vtt" default>
+		<!-- M8LO8 Demonstrate the use of the <video> element for embedding video in a Web page (HTML)-->
+		<!-- Took video with my phone just as a basic welcome -->
+		<video width="800" height="450" controls poster="collage3.jpg">
+
+			<source src="welcome.mp4" type="video/mp4">
+				<source src="welcome.webm" type="video/webm">
+					<track label="Speech Captions" kind="subtitles" srclang="en" src="md_captions.vtt" default>
 						<p>To support this video clip, your broswer needs to support HTML5</p>
 				</video>
+
 			</div>
 
 				<article>
@@ -84,7 +88,12 @@
 									<p id="subTitle">Click on the one of your choice to learn more about it!</p>
 									<p>
 
-										<a style="color: #42f453;font-size: 1.25em; background-color: black;"  href="https://linkto.run/p/Q6U5F5FT" target="_blank">Click here to vote on the best DEW (New Tab)</a>
+										<a style="color: #42f453;font-size: 1.25em; background-color: black;"  href="https://linkto.run/p/Q6U5F5FT" target="_blank">Click here to vote on the best DEW (New Tab), or use box below</a>
+										<br>
+										<!--M8LO9  Demonstrate the use of the iframe element -->
+										<!-- addes a frame for the voting poll -->
+										<iframe width"200" height="150" name="vote" id="poll" src="https://linkto.run/p/Q6U5F5FT">
+										</iframe>
 									</p>
 								</th>
 							</tr>

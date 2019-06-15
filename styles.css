@@ -280,15 +280,19 @@ article
 
 
 }
-
+/*M8LO12 Demonstrate how to format media with CSS (CSS, group your media styles together and describe their overall impact on the media feature of your page)*/
+/*I am positioning the video to a manual center and giving the background a green mt dew color when not played */
+/*media styles*/
 #video
 {
-	float: right;
-  display: block;
-  width: 80%;
-
+	margin-top: 10%;
+	margin-left: 30%;
+	background: #1CB914;
+	display: block;
 
 }
+
+
 
 h3:first-of-type
 {
@@ -533,7 +537,7 @@ section
 
 }
 
-h4,
+h4
 {
 	background-color: black;
 }
@@ -707,6 +711,12 @@ footer img
 		display: none;
 	}
 
+	#video
+	{
+		display: none;
+
+	}
+
 	article
 	{
 		width: 100%;
@@ -740,6 +750,9 @@ footer img
 	font-size: 1.5em;
 	background-repeat: no-repeat;
 	background-image: url("images/background.jpg");
+	transition: background-image 10s ease-in;
+	transform: perspective(200px);
+
 	}
 
 	#promo
@@ -820,6 +833,12 @@ header
 	display: none;
 }
 
+
+#video
+{
+	display: none;
+
+}
 
 a:visited
 {
